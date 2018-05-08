@@ -1,5 +1,5 @@
 {
-    "name": "electronautoupdate",
+    "name": "electron_updater",
     "version": "0.1.10",
     "author": "ZaninAndrea",
     "homepage": "./",
