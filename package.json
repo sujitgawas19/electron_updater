@@ -1,21 +1,21 @@
 {
-    "name": "electron_updater",
-    "version": "0.1.10",
-    "author": "ZaninAndrea",
-    "homepage": "./",
-    "description": "An example of an autoupdating electron app",
-    "repository": "https://github.com/ZaninAndrea/electron-autoupdate-example",
-    "main": "electron.js",
-    "dependencies": {
-        "electron-updater": "^2.10.1"
-    },
-    "scripts": {
-            "build": "build --win",
-            "ship": "build --win -p always",
-            "start": "electron ."
-        },
-    "devDependencies": {
-        "electron": "^1.7.5",
-        "electron-builder": "^19.20.1"
-    }
+  "name": "electron_updater",
+  "version": "4.0.0",
+  "author": "ZaninAndrea",
+  "homepage": "./",
+  "description": "An example of an autoupdating electron app",
+  "repository": "https://github.com/sujitgawas19/electron_updater",
+  "main": "electron.js",
+  "dependencies": {
+    "electron-updater": "^2.21.10"
+  },
+  "scripts": {
+    "build": "build --win",
+    "ship": "build --mac -p always",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-builder": "^19.56.2"
+  }
 }
